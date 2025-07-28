@@ -1,0 +1,39 @@
+
+p {
+
+    /* color */
+    color:white;
+    /* tipografia */
+    font-family: Montserrat,WinkySans;
+    /* tamaño del texto */
+    font-size: 20px;
+    /* grosor del texto */
+    font-weight: 7;
+    /* alinicion del texto */
+    font-style: italic;
+    /* alinea los parrafos */
+    text-align: justify;
+    
+    text-decoration: none;
+    /* altura entre letras */
+    line-height: 1.8;
+    /* espacio entre letras */
+    letter-spacing: 10px;
+    /* para controlar la capitalizacion del texto */
+}
+h1 {
+    text-align: center;
+}
+
+span {
+    color :red;
+    text-decoration: line-through
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+

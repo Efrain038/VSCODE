@@ -1,0 +1,11 @@
+body , html {
+    padding: 0 ;
+    margin : 0 ;
+}
+.Fondo2 {
+    background-image: url(/HTMl/imagenes/Militar.jpg);
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    }
+

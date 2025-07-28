@@ -1,0 +1,85 @@
+body {
+    font-size: 40px;
+    margin: 0;
+}
+div {
+    background-color: #ededed;
+    border-left: 5px solid #999;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 20px;
+    width: 80vh;
+    height: 80vh;
+    margin: 0 ;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+span {
+    font-size:15px;
+
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-family: sans-serif ;
+
+
+    
+}
+
+h1 { 
+    margin: 0 ;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

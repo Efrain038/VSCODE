@@ -1,0 +1,131 @@
+body ,html {
+    margin: 0;
+    padding: 0;
+}
+
+.Fondo {
+    background-image: url(Ciudad.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align:center;
+}
+
+.input {
+    height: 25px;
+    width: 200px;
+    padding: 6px;
+    margin: 9px;
+    border: 2px solid rgb(90, 60, 223);
+    border-radius:20px;
+    font-weight: 900;
+    box-shadow: 0 0 100px rgb(0, 140, 223);
+}
+.boton {
+    height: 30px;
+    width: 90px;
+    padding: 6px;
+    margin: 9px;
+    border: 0 solid rgb(90, 61, 223);
+    border-radius:12px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 45px;
+    color: #374;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

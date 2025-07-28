@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Fondo {
+    background-image: url(/HTML/imagenes/Ciudad.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.Inicio_de_sesion {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:rgb(110, 120, 250);
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.input {
+    border-bottom: 4px solid rgb(6, 10, 250);
+    border-radius: 20px;
+    margin:11px ;
+    padding: 10px;
+    box-shadow: 0 0 100px rgb(67, 192, 109)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

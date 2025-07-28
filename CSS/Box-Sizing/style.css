@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.box  {
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    margin: 20px;
+}
+
+.box-default {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 20px solid black;
+}
+
+.box-new {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 20px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

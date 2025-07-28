@@ -1,0 +1,53 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgb(150, 200, 255);
+    margin: 32px;
+}
+
+/* esta es la forma de modificar colores con RGB */
+
+/* La 1ra colomna es R (Rojo) 2da es G (green) y la era (Blue)
+solo elige de los 256 tonos de cada columna */
+
+.box_2 {
+    width: 100px;
+    height: 100px;
+    background: #42d8ef;
+    margin: 32px;
+}
+
+/* esta es la hexadecimal */
+
+/* es lo mismo que en RGB el 1ro es Rojo el 2do es Verde y el 3ro es Azul */
+
+/* puedes usar abreviaturas
+       #FFFFFF > FFF
+       #000000 > 000
+       #FFCC00 > FC0
+*/
+
+/* el 2do digito o letra es para epecificar dentro de los 16 todo que tiene el primer digito */
+
+/* estos numeros/digitos van desde el "0" hazta la "F"  */
+
+.box_3 {
+    padding: 60px 100px;
+    width: 100px;
+    height: 100px;
+    background: hsl(210, 40%, 35%);
+    margin: 40px;
+    margin-left: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    border-top:2px solid hsl(250, 100%, 60%);
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px #0000ff;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: #f2f2f2;
+}

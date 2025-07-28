@@ -1,0 +1,74 @@
+body , html{
+    background-color: #000;
+    margin: 0;
+}
+
+.box {
+    width: 500px;
+    height: 750px;
+    background: linear-gradient(to top,transparent, #ddd);
+    margin: auto ;
+    border-radius: 7px;
+    margin-top: 20px;
+    border-top: 6px solid #a00;
+
+}
+
+h1 {
+    color: #ddd;
+    text-align: center;
+    margin: 0;
+    font-family:sans-serif ;
+    padding: 30px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Avanzado</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/HTML/imagenes/Usuario.png" type="image/png/jpg" />
+  </head>
+  <body>
+    <form class="caja_form">
+      <h2>Formulario De Contacto</h2>
+      
+      <!-- simples inputs -->
+      <fieldset>
+        <LEgend>Informacion Basica</LEgend>
+        <div class="div_input">
+          <label for="Name">Nombre Usuario</label>
+          <input type="text" placeholder="Name" id="Name" />
+        </div>
+        <div class="div_input">
+          <label for="Email">Email</label>
+          <input type="email" placeholder="Gmail.Com" id="Email" />
+        </div>
+        <div class="div_input">
+          <label for="Name">Asunto</label>
+          <input type="text" placeholder="..." id="Name" />
+        </div>
+      </fieldset>
+
+      <!-- select y option -->
+      <div class="div_input">
+        <label for="usuarios">usuarios</label>
+        <select name="type-of-user">
+          <option value="user1">opcion 1</option>
+          <option value="user2">opcion 2</option>
+          <option value="user3">opcion 3</option>
+        </select>
+      </div>
+
+      <!-- Datalist -->
+      <div class="div_input">
+        <input list="referente" />
+        <label for="referente">Nos Conoces Gracias a:  </label>
+        <datalist id="referente">
+          <option value="Amigos"></option>
+          <option value="Familiares"></option>
+          <option value="Otros"></option>
+        </datalist>
+      </div>
+
+      <!-- textarea -->
+      <div>
+        <label for="Comentario">Su Opinion</label>
+        <textarea
+          rows="8"
+          placeholder="Deje Su Opinion Sobre El Sitio Web..."
+          id="Comentario">
+        </textarea>
+
+        <div class="div_input">
+          <label>Acepto los <a target="_blank" href="/HTML Avanzado/Enlaces (Avanzado)/index.html">terminos y condiciones</a> 
+          </label>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
+
+<!-- Readonly: El atributo readonly en HTML se usa para hacer que un campo de formulario sea solo de lectura, y si puede inviar datos -->
+
+<!-- Disabled: se usa para desactivar el textarea, no se puede escribir en el textarea y no se puede enviar el formulario, es como si no existiera el textarea, pero si lo puedes ver y leer -->
+
+<!-- Maxlength: se usa para limitar la cantidad de caracteres que se pueden escribir en un textarea, por ejemplo si le pongo 10 solo podre escribir 10 caracteres y no mas -->

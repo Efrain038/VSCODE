@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #111;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #bbf;
+}
+
+.caja_form {
+  background-color: transparent;
+  padding: 30px 50px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 40px #8884;
+  border-radius: 14px;
+  margin-top: 50px;
+}
+
+.div_input {
+  padding: 6px 20px;
+}
+
+input,
+textarea,
+select {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: none;
+  border-left: 2px solid #070;
+  border-bottom: 1px solid #040;
+  border-radius: 7px;
+  /* box-shadow: 0 0 15px #333; */
+  font-family: monospace;
+  font-size: 1.6em;
+  transition: 0.5s;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #ddd;
+  
+}
+
+textarea {
+  /* min-height: 200px ; */
+  max-height: 400px;
+  font-family: sans-serif;
+  font-size: large;
+  resize: none;
+  text-align: left;
+  border-radius: 7px;
+  border: none;
+  border-left: 2px solid #070;
+  margin-bottom: 0;
+}
+
+label {
+  font-size: 1.5em;
+
+  /* Define el espacio vertical entre líneas de texto dentro de un bloque de texto */
+  line-height: 2;
+  color:#fff;
+  font-family: monospace; 
+}
+
+select {
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #888;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+}
+legend {
+  color: #fff;
+  font-size: 30px;
+  padding: 0 30px;
+  font-family: monospace;
+}
+
+a {
+  color: #69f;
+  text-decoration: none;
+}
